@@ -22,8 +22,10 @@ const Banner = () => {
             <span className="text-accent">Our Goal.</span>
           </h1>
           <p className="max-w-sm mx-auto mb-[50px] lg:mx-0 lg:max-w-[540px]">
-            It is a long established fact that a reader will be distracted by
-            the readable content of a page when looking at its layout.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+            nisl eros, pulvinar facilisis justo mollis, auctor consequat urna.
+            Morbi a bibendum metus. Donec scelerisque sollicitudin enim eu
+            venenatis. Duis tincidunt laoreet 
           </p>
           {/* Appointment */}
           <div className="lg:absolute mx-auto max-w-[445px] lg:mx-0">
