@@ -21,7 +21,7 @@ const Skills = () => {
           {skills.map((item, index) => {
             const { icon, title, description } = item;
             return (
-              <div className="flex flex-col items-center justify-center mb-16 last:mb-0 lg:mb-0">
+              <div key={index} className="flex flex-col items-center justify-center mb-16 last:mb-0 lg:mb-0">
                 <img className="mb-6" src={icon} alt="/" />
                 <h4 className="text-2xl mb-2 font-primary font-bold">
                   {title}
