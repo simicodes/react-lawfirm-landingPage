@@ -2,6 +2,7 @@ import React from "react";
 
 // import components
 import Banner from "./components/Banner";
+import Contact from "./components/Contact";
 import Newsletter from "./components/Newsletter";
 import Skills from "./components/Skills";
 import Team from "./components/Team";
@@ -15,7 +16,8 @@ const App = () => {
       <Skills />
       <Team />
       <Newsletter />
-      <div className="h-[2000px]"></div>
+      <Contact />
+      {/* <div className="h-[2000px]"></div> */}
     </div>
   );
 };
