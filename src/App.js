@@ -1,4 +1,5 @@
 import React from "react";
+import BackToTopBtn from "./components/BackToTopBtn";
 
 // import components
 import Banner from "./components/Banner";
@@ -19,6 +20,7 @@ const App = () => {
       <Newsletter />
       <Contact />
       <Footer />
+      <BackToTopBtn />
       {/* <div className="h-[2000px]"></div> */}
     </div>
   );
